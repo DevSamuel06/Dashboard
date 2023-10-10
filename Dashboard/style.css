@@ -67,9 +67,10 @@ body {
 }
 
 .topnav_menu li {
-    display: inline-block;
+    display: inline;
     list-style: none;
 }
+
 
 main {
     padding: var(--default-pad);
@@ -91,10 +92,12 @@ main {
     border-left: 2px solid var(--grey);
     align-self: stretch;
 }
-
-img {
-    width: 100%;
+.botoes{
+    width: 80;
+    height: 80;
+    border-color: red;
 }
+
 
 .btn {
     background-color: var(--primary-color);
@@ -127,4 +130,20 @@ img {
     position: fixed;
     left: var(--small-pad);
     bottom: var(--medium-pad);
+}
+
+.debug{
+    border: 30px solid red;
+    width: 150;
+    height: 150;
+}
+
+.perfil{
+    width: 8%;
+    height: 8%;
+}
+
+.botao{
+    border-radius: 10px;
+    background-color: black;
 }
