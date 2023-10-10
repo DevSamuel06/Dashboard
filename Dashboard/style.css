@@ -25,6 +25,13 @@ body {
     min-height: 100%;
 }
 
+li:hover {
+    background-color: rgb(182, 178, 178);
+    border-radius: 5px;
+    color: gray;
+    transition: 0.5s;
+}
+
 .topnav_menu,
 .menu {
     margin: 0;
@@ -41,6 +48,13 @@ body {
 
 .menu {
     padding: var(--default-pad);
+    text-decoration: none;
+    color: rgb(70, 66, 66);
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(70, 66, 66);
 }
 
 .main_nav {
@@ -71,6 +85,10 @@ body {
     list-style: none;
 }
 
+.topnav_menu li a {
+    text-decoration: none;
+    color: rgb(70, 66, 66);
+}
 
 main {
     padding: var(--default-pad);
@@ -91,11 +109,6 @@ main {
     width: 1px;
     border-left: 2px solid var(--grey);
     align-self: stretch;
-}
-.botoes{
-    width: 80;
-    height: 80;
-    border-color: red;
 }
 
 
@@ -133,17 +146,18 @@ main {
 }
 
 .debug{
-    border: 30px solid red;
-    width: 150;
-    height: 150;
+    border: 1px solid red;
 }
 
 .perfil{
-    width: 8%;
-    height: 8%;
+    width: 2%;
+    height: 2%;
 }
 
-.botao{
-    border-radius: 10px;
-    background-color: black;
+.botao {
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
 }
